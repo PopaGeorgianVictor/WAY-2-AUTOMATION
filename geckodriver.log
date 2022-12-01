@@ -103,3 +103,30 @@ WebDriver BiDi listening on ws://127.0.0.1:11570
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofile8We5iT\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:11570/devtools/browser/28c7c98d-206f-4398-bb7e-9e1f4e9df9d2
 JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1669906165015	Marionette	INFO	Stopped listening on port 11579
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "47699" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileQjFpuY"
+1669906136379	Marionette	INFO	Marionette enabled
+1669906136383	Marionette	INFO	Listening on port 47709
+WebDriver BiDi listening on ws://127.0.0.1:47699
+Read port: 47709
+1669906137543	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileQjFpuY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47699/devtools/browser/e68ec0e7-dbe5-4714-b699-25f91237b922
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1669906164105	Marionette	INFO	Stopped listening on port 47709
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669906170973	geckodriver	INFO	Listening on 127.0.0.1:47753
+1669906173961	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "47754" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofile3uFScG"
+1669906174479	Marionette	INFO	Marionette enabled
+1669906174484	Marionette	INFO	Listening on port 47763
+Read port: 47763
+WebDriver BiDi listening on ws://127.0.0.1:47754
+1669906174582	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofile3uFScG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47754/devtools/browser/72ebe9ea-21ff-4fd7-9892-2f3026d45ace
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://popageorgianvictor.github.io."
+1669906190916	Marionette	INFO	Stopped listening on port 47763
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 12980, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
