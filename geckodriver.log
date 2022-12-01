@@ -130,3 +130,15 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 1669906190916	Marionette	INFO	Stopped listening on port 47763
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 [Parent 12980, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1669909991358	geckodriver	INFO	Listening on 127.0.0.1:48175
+1669909994325	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "48176" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofilespqB3M"
+1669909996322	Marionette	INFO	Marionette enabled
+1669909996327	Marionette	INFO	Listening on port 48185
+WebDriver BiDi listening on ws://127.0.0.1:48176
+Read port: 48185
+1669909997853	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofilespqB3M\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48176/devtools/browser/036ca29b-2200-4347-9352-20bc0a8c364e
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1669910005926	Marionette	INFO	Stopped listening on port 48185
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
