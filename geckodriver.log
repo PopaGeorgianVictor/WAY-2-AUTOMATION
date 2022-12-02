@@ -250,8 +250,9 @@ WebDriver BiDi listening on ws://127.0.0.1:46157
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofilewZjJfA\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:46157/devtools/browser/f1edcecb-ca18-4eb5-b4d4-513a0e1460d7
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://popageorgianvictor.github.io."
-1669968849968	geckodriver	INFO	Listening on 127.0.0.1:46195
-1669968852999	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "46196" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofile7YWX3r"
+1669969302734	Marionette	INFO	Stopped listening on port 46166
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "46196" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofile7YWX3r"
 1669968853414	Marionette	INFO	Marionette enabled
 1669968853419	Marionette	INFO	Listening on port 46205
 Read port: 46205
@@ -263,3 +264,15 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 1669968863530	Marionette	INFO	Stopped listening on port 46205
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 [Parent 9048, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1669989121107	geckodriver	INFO	Listening on 127.0.0.1:48520
+1669989124133	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "48521" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileodmKiR"
+1669989126658	Marionette	INFO	Marionette enabled
+1669989126673	Marionette	INFO	Listening on port 48530
+Read port: 48530
+WebDriver BiDi listening on ws://127.0.0.1:48521
+1669989127114	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileodmKiR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48521/devtools/browser/d1437b69-5ab3-436d-99eb-40b8124ead5d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://popageorgianvictor.github.io."
+1669989136711	Marionette	INFO	Stopped listening on port 48530
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 693: TypeError: this.tablesData[table] is undefined

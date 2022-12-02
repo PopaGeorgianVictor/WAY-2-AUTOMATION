@@ -54,3 +54,7 @@ driver.back()
 
 driver.close() # close current tab
 driver.quit() # close all tabs
+
+# Refresh/reload a web page
+
+driver.refresh()
