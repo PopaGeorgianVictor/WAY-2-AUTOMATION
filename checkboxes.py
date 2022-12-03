@@ -19,7 +19,7 @@ driver.get(url)
 
 # scroll down in page
 driver.execute_script("arguments[0].scrollIntoView();", driver.find_element(By.ID, "checkboxes"))
-time.sleep(3)
+time.sleep(2)
 
 # verify number of checkboxes and they are selectable
 expected_number_of_options = 4
