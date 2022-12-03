@@ -18,12 +18,10 @@ url = "https://popageorgianvictor.github.io/MyTestSite/"
 driver.get(url)
 
 # scroll down in page
-
 driver.execute_script("arguments[0].scrollIntoView();", driver.find_element(By.ID, "checkboxes"))
 time.sleep(3)
 
 # verify number of checkboxes and they are selectable
-
 expected_number_of_options = 4
 all_checkboxes = driver.find_elements(By.NAME, 'age-group-checkbox')
 assert len(all_checkboxes) == expected_number_of_options, "Number of checkboxes is not the expected"
