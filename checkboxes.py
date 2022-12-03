@@ -11,7 +11,7 @@ driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
 # This is for maximize web window
 driver.maximize_window()
 
-
+# URL of website
 url = "https://popageorgianvictor.github.io/MyTestSite/"
 
 # Opening the website
