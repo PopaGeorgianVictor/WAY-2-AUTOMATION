@@ -6,7 +6,7 @@ from selenium.webdriver.firefox.service import Service
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.common.by import By
 
-# Here FireFox  will be used
+# create driver object
 driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
 
 # This is for maximize web window
