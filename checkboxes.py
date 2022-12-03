@@ -33,3 +33,6 @@ for checkbox in all_checkboxes:
         print(f"Checkbox with value '{value}' is selectable")
     else:
         raise Exception(f"Value '{value}' is not selectable")
+
+
+
