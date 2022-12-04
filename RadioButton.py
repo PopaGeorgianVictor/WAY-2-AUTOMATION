@@ -1,7 +1,6 @@
 import time
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
-from selenium.webdriver.support.select import Select
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.common.by import By
 
