@@ -29,7 +29,7 @@ new_window = all_window_handles[1]
 driver.switch_to.window(new_window)
 print("After switching focus: " + driver.title)
 print("Closing tab")
-time.sleep(2)
+time.sleep(5)
 driver.close()
 print("Switching back to original")
 driver.switch_to.window(original_window_handle)
