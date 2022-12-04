@@ -21,6 +21,8 @@ driver.get(url)
 driver.execute_script("arguments[0].scrollIntoView();", driver.find_element(By.XPATH, "/html/body/div/div[3]/form/div/div[4]/div[2]/div[2]/h1/strong/u"))
 time.sleep(2)
 
+
+# check for hidden element
 my_btn1 = driver.find_element(By.ID, 'btn1')
 print(f"First button text: {my_btn1.text}")
 
