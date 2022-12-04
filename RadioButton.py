@@ -23,11 +23,11 @@ driver.execute_script("arguments[0].scrollIntoView();", driver.find_element(By.I
 time.sleep(2)
 
 # verify default is selected
-# expected_default_value = 'rock fm'
-# locator_by_value = 'input[name="radio-stations"][value="{value}"]'
-#
-# default_element = driver.find_element(By.CSS_SELECTOR, locator_by_value.format(value=expected_default_value))
-# assert default_element.is_selected(), f"The default value of {expected_default_value} is not selected."
+expected_default_value = 'rock fm'
+locator_by_value = 'input[name="radio-stations"][value="{value}"]'
+
+default_element = driver.find_element(By.CSS_SELECTOR, locator_by_value.format(value=expected_default_value))
+assert default_element.is_selected(), f"The default value of {expected_default_value} is not selected."
 
 # verify number of radio button
 expected_values = ['magic fm','radio galaxy','europa fm','rock fm']
