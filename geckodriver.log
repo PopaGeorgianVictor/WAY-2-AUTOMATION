@@ -2210,3 +2210,41 @@ DevTools listening on ws://127.0.0.1:21515/devtools/browser/32ea7a2b-7786-49bd-a
 JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
 1670328824435	Marionette	INFO	Stopped listening on port 21524
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670329563010	geckodriver	INFO	Listening on 127.0.0.1:21669
+1670329566044	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "21670" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileAAT6gR"
+1670329566491	Marionette	INFO	Marionette enabled
+1670329566497	Marionette	INFO	Listening on port 21679
+WebDriver BiDi listening on ws://127.0.0.1:21670
+Read port: 21679
+1670329567508	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileAAT6gR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:21670/devtools/browser/8e4f0581-04b4-4a1b-81e2-9c7423e12878
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1670329657179	Marionette	INFO	Stopped listening on port 21679
+[Parent 10548, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+[Parent 10548, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1670334157187	geckodriver	INFO	Listening on 127.0.0.1:49055
+1670334160175	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49056" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofilelBChOk"
+1670334162810	Marionette	INFO	Marionette enabled
+1670334162824	Marionette	INFO	Listening on port 49065
+Read port: 49065
+WebDriver BiDi listening on ws://127.0.0.1:49056
+1670334163468	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofilelBChOk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49056/devtools/browser/bdd5a4ac-46d9-4e82-ba3e-fb1e7afb354a
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1670334221029	Marionette	INFO	Stopped listening on port 49065
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670334226447	geckodriver	INFO	Listening on 127.0.0.1:49097
+1670334229431	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49098" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofilesMzbE2"
+1670334230414	Marionette	INFO	Marionette enabled
+1670334230419	Marionette	INFO	Listening on port 49107
+Read port: 49107
+WebDriver BiDi listening on ws://127.0.0.1:49098
+1670334230538	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofilesMzbE2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49098/devtools/browser/aad6a590-dd99-4932-9030-312a1114fc73
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1670334381594	Marionette	INFO	Stopped listening on port 49107
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
