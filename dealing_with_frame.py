@@ -55,3 +55,11 @@ time.sleep(2)
 print('I clicked in frame')
 
 
+# to find out how many frame's are on the page
+frames = driver.find_elements(By.TAG_NAME,"iframe")
+
+for frame in frames:
+    print(frame.get_attribute("id"))
+
+print(len(frames))
+

@@ -2064,3 +2064,18 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/81_xgzAtA3K6BUSvxlv
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.javatpoint.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.javatpoint.com."
 JavaScript error: , line 0: uncaught exception: No tcf-api
+1670317919779	geckodriver	INFO	Listening on 127.0.0.1:20617
+1670317922825	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "20618" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileQUQqCj"
+1670317924327	Marionette	INFO	Marionette enabled
+1670317924332	Marionette	INFO	Listening on port 20630
+Read port: 20630
+WebDriver BiDi listening on ws://127.0.0.1:20618
+1670317924433	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileQUQqCj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:20618/devtools/browser/61f3cc46-e2aa-4c44-98ce-5abb9b1c8eef
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://www.javatpoint.com/python-tutorial, line 1914: TypeError: redirectButton is null
+JavaScript error: , line 0: uncaught exception: No tcf-api
+JavaScript warning: https://pagead2.googlesyndication.com/bg/81_xgzAtA3K6BUSvxlviYRqiKRYqPH3jXMkg3rbk2fc.js line 2 > eval line 1937 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1670318113636	Marionette	INFO	Stopped listening on port 20630
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
