@@ -43,7 +43,7 @@ time.sleep(2)
 
 # if we want to go back and click on the button outside the iFrame, we have to change the focus again
 driver.switch_to.default_content()
-driver.find_element('id', 'btnOutFrame').click()
+driver.find_element(By.ID, 'btnOutFrame').click()
 print(driver.switch_to.alert.text)
 time.sleep(2)
 driver.switch_to.alert.dismiss()
