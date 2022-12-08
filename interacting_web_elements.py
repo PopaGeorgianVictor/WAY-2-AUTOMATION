@@ -24,7 +24,7 @@ driver.maximize_window()
 
 # Performing click event
 
-click = driver.find_element(By.CSS_SELECTOR, '#loginForm > div:nth-child(11) > input:nth-child(1)')
+click = driver.find_element(By.CSS_SELECTOR, '#loginForm > a:nth-child(8)')
 click.click()
 
 # Sending inputs
