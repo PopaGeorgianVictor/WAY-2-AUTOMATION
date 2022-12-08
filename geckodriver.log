@@ -2411,3 +2411,40 @@ JavaScript error: , line 0: uncaught exception: No tcf-api
 1670513992264	Marionette	INFO	Stopped listening on port 4389
 [Parent 12928, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670514124344	geckodriver	INFO	Listening on 127.0.0.1:49703
+1670514127381	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49704" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofilei98QcN"
+1670514127944	Marionette	INFO	Marionette enabled
+1670514127953	Marionette	INFO	Listening on port 49713
+Read port: 49713
+WebDriver BiDi listening on ws://127.0.0.1:49704
+1670514128160	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofilei98QcN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49704/devtools/browser/ea320f89-2e37-4b29-8535-a383d5f5c038
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1670514146425	Marionette	INFO	Stopped listening on port 49713
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670514150879	geckodriver	INFO	Listening on 127.0.0.1:49763
+1670514153905	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49764" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileKp7j59"
+1670514154442	Marionette	INFO	Marionette enabled
+1670514154447	Marionette	INFO	Listening on port 49775
+Read port: 49775
+WebDriver BiDi listening on ws://127.0.0.1:49764
+1670514154572	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileKp7j59\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49764/devtools/browser/e2cebb81-7f01-45b9-83c1-e1b8e55a78fd
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1670514165872	Marionette	INFO	Stopped listening on port 49775
+[Parent 16232, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+[Parent 16232, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1670517379441	geckodriver	INFO	Listening on 127.0.0.1:32382
+1670517382357	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "32383" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileM8sBtA"
+1670517383114	Marionette	INFO	Marionette enabled
+1670517383120	Marionette	INFO	Listening on port 32392
+Read port: 32392
+WebDriver BiDi listening on ws://127.0.0.1:32383
+1670517383218	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileM8sBtA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:32383/devtools/browser/fcfb187b-f077-44da-8d70-a423dea989f8
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1670517418837	Marionette	INFO	Stopped listening on port 32392
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
