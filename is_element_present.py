@@ -18,7 +18,7 @@ url = "https://popageorgianvictor.github.io/MyTestSite/"
 driver.get(url)
 
 # scroll down in page
-driver.execute_script("arguments[0].scrollIntoView();", driver.find_element(By.XPATH, "/html/body/div/div[3]/form/div/div[4]/div[2]/div[2]/h1/strong/u"))
+driver.execute_script("arguments[0].scrollIntoView();", driver.find_element(By.ID, "btn1"))
 time.sleep(2)
 
 

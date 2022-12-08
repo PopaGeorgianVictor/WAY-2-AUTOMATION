@@ -2396,3 +2396,18 @@ JavaScript error: https://www.javatpoint.com/python-tutorial, line 1914: TypeErr
 JavaScript error: , line 0: uncaught exception: No tcf-api
 1670513649118	Marionette	INFO	Stopped listening on port 4205
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670513936213	geckodriver	INFO	Listening on 127.0.0.1:4379
+1670513939245	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "4380" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileGXsvNe"
+1670513939666	Marionette	INFO	Marionette enabled
+1670513939671	Marionette	INFO	Listening on port 4389
+Read port: 4389
+WebDriver BiDi listening on ws://127.0.0.1:4380
+1670513939769	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileGXsvNe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:4380/devtools/browser/3352d104-38ac-4b45-9468-849ab75c26e7
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://www.javatpoint.com/python-tutorial, line 1915: TypeError: redirectButton is null
+JavaScript error: , line 0: uncaught exception: No tcf-api
+1670513992264	Marionette	INFO	Stopped listening on port 4389
+[Parent 12928, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
