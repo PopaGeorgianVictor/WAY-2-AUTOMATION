@@ -2248,3 +2248,22 @@ DevTools listening on ws://127.0.0.1:49098/devtools/browser/aad6a590-dd99-4932-9
 JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
 1670334381594	Marionette	INFO	Stopped listening on port 49107
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670487220587	geckodriver	INFO	Listening on 127.0.0.1:50363
+1670487223556	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50364" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileR08Z0z"
+1670487225368	Marionette	INFO	Marionette enabled
+1670487225382	Marionette	INFO	Listening on port 50373
+Read port: 50373
+WebDriver BiDi listening on ws://127.0.0.1:50364
+1670487225845	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileR08Z0z\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50364/devtools/browser/493414a5-eeac-4d3f-a9ef-85baefe427ba
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://www.javatpoint.com/python-tutorial, line 1914: TypeError: redirectButton is null
+JavaScript error: , line 0: uncaught exception: No tcf-api
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3WpNOUgrN-_pxVw2NAHVNtofer_w6aLb3ZHXGHAM44Y.js line 2 > eval line 3870 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://popageorgianvictor.github.io."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://popageorgianvictor.github.io."
+JavaScript error: https://www.javatpoint.com/python-tutorial, line 1914: TypeError: redirectButton is null
+JavaScript error: , line 0: uncaught exception: No tcf-api
+1670487332011	Marionette	INFO	Stopped listening on port 50373
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

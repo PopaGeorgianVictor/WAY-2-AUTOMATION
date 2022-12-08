@@ -8,7 +8,7 @@ from selenium.webdriver.common.by import By
 
 driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
 
-# This is for maximize web window
+# maximize web window
 driver.maximize_window()
 driver.implicitly_wait(1)
 
