@@ -2550,3 +2550,14 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://127.0.0.1:9036/devtools/browser/9431e3dc-ab23-45c1-ba83-0f3e5634ad4a
 1670778771512	Marionette	INFO	Stopped listening on port 9045
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670778949111	geckodriver	INFO	Listening on 127.0.0.1:9090
+1670778952128	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "9091" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileoCjgJ5"
+1670778952529	Marionette	INFO	Marionette enabled
+1670778952535	Marionette	INFO	Listening on port 9100
+Read port: 9100
+WebDriver BiDi listening on ws://127.0.0.1:9091
+1670778952633	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileoCjgJ5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:9091/devtools/browser/1f9de15d-f5d6-43d5-b570-9bc036bb44d1
+1670778959325	Marionette	INFO	Stopped listening on port 9100
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
