@@ -14,9 +14,12 @@ driver.maximize_window()
 driver.implicitly_wait(2)
 
 # html alert
-
 driver.find_element(By.CSS_SELECTOR, "div#bootStrapAlertExample button").click()
 html_alert_text = driver.find_element(By.ID, "bootStrapAlert").text
 expected_text = "This is alert using just html."
 assert html_alert_text == expected_text, f"Error: expected: {expected_text}, actual: {html_alert_text}"
 
+# js alert accept
+driver.find_element(By.CSS_SELECTOR, "div#jsAlertExample button").click()
+js_alert = driver.switch_to.alert
+js_alert.accept()
