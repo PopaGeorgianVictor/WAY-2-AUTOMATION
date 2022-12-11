@@ -24,9 +24,16 @@ driver.implicitly_wait(2)
 # js_alert = driver.switch_to.alert
 # js_alert.accept()
 
-# js confirm accept alert
+# # js confirm accept alert
+# driver.find_element(By.CSS_SELECTOR, "div#jsConfirmExample button").click()
+# js_confirm = driver.switch_to.alert
+# js_confirm.accept()
+# rs_message = driver.find_element(By.ID, 'userResponse1').text
+# assert rs_message == 'Great! You will love it!', "Wrong message after accepting"
+
+# js confirm cancel alert
 driver.find_element(By.CSS_SELECTOR, "div#jsConfirmExample button").click()
 js_confirm = driver.switch_to.alert
-js_confirm.accept()
+js_confirm.dismiss()
 rs_message = driver.find_element(By.ID, 'userResponse1').text
-assert rs_message == 'Great! You will love it!', "Wrong message after accepting"
+assert rs_message == "Too bad!!! You would've loved it!", "Wrong message after accepting"
