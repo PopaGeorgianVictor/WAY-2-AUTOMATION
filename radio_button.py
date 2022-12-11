@@ -14,7 +14,7 @@ driver.maximize_window()
 # URL of website
 url = "https://popageorgianvictor.github.io/MyTestSite/"
 
-# Opening the website
+# Opening the websitetest
 driver.get(url)
 
 # scroll down in page
