@@ -31,9 +31,19 @@ driver.implicitly_wait(2)
 # rs_message = driver.find_element(By.ID, 'userResponse1').text
 # assert rs_message == 'Great! You will love it!', "Wrong message after accepting"
 
-# js confirm cancel alert
-driver.find_element(By.CSS_SELECTOR, "div#jsConfirmExample button").click()
-js_confirm = driver.switch_to.alert
-js_confirm.dismiss()
-rs_message = driver.find_element(By.ID, 'userResponse1').text
-assert rs_message == "Too bad!!! You would've loved it!", "Wrong message after accepting"
+# # js confirm cancel alert
+# driver.find_element(By.CSS_SELECTOR, "div#jsConfirmExample button").click()
+# js_confirm = driver.switch_to.alert
+# js_confirm.dismiss()
+# rs_message = driver.find_element(By.ID, 'userResponse1').text
+# assert rs_message == "Too bad!!! You would've loved it!", "Wrong message after accepting"
+
+# js prompt accept alert with text
+# driver.find_element(By.CSS_SELECTOR, "div#jsPromptExample button").click()
+# js_prompt = driver.switch_to.alert
+# inserted_text = 'test'
+# js_prompt.send_keys(inserted_text)
+# js_prompt.accept()
+# rs_message = driver.find_element(By.ID, 'userResponse2').text
+# expected_text = f"You have entered: {inserted_text}"
+# assert rs_message == expected_text, f"Error: expected: {expected_text}, actual: {rs_message}"
