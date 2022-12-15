@@ -2594,3 +2594,41 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://127.0.0.1:9258/devtools/browser/13d3f0c0-29a6-434e-92ab-2243fc1a8910
 1670779443033	Marionette	INFO	Stopped listening on port 9267
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671109370256	geckodriver	INFO	Listening on 127.0.0.1:26195
+1671109373273	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "26196" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofile6xqPDg"
+1671109376642	Marionette	INFO	Marionette enabled
+1671109376655	Marionette	INFO	Listening on port 26205
+Read port: 26205
+WebDriver BiDi listening on ws://127.0.0.1:26196
+1671109377502	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofile6xqPDg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:26196/devtools/browser/40f76ace-7584-492e-b644-55b95baa1a08
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://www.javatpoint.com/python-tutorial, line 1927: TypeError: redirectButton is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 3480 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1671109548200	Marionette	INFO	Stopped listening on port 26205
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671109589727	geckodriver	INFO	Listening on 127.0.0.1:26418
+1671109592761	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "26419" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileG8cq7d"
+1671109594024	Marionette	INFO	Marionette enabled
+1671109594030	Marionette	INFO	Listening on port 26428
+Read port: 26428
+WebDriver BiDi listening on ws://127.0.0.1:26419
+1671109594146	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileG8cq7d\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:26419/devtools/browser/9529881e-c094-4807-b9ab-d3bfb9d5e3d1
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://www.javatpoint.com/python-tutorial, line 1927: TypeError: redirectButton is null
+1671109619874	Marionette	INFO	Stopped listening on port 26428
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671109737474	geckodriver	INFO	Listening on 127.0.0.1:26527
+1671109740464	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "26528" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofile2cIFnW"
+1671109740958	Marionette	INFO	Marionette enabled
+1671109740963	Marionette	INFO	Listening on port 26537
+Read port: 26537
+WebDriver BiDi listening on ws://127.0.0.1:26528
+1671109741060	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofile2cIFnW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:26528/devtools/browser/ab6cda9a-daa7-40b7-8f53-609481906bc6
+1671109758673	Marionette	INFO	Stopped listening on port 26537
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
