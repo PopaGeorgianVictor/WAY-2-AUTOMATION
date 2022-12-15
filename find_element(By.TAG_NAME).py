@@ -1,5 +1,4 @@
 
-
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
 from webdriver_manager.firefox import GeckoDriverManager
@@ -12,11 +11,10 @@ driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
 driver.maximize_window()
 
 # URL of website
-url = "https://popageorgianvictor.github.io/MyTestSite/"
+url = "https://popageorgianvictor.github.io/PUBLISHED-WEBPAGES/register"
 
 # Opening the website
 driver.get(url)
 
 # The heading (h1) element can be located like this
-heading1 = driver.find_element(By.TAG_NAME, 'h1')
-print(heading1)
+driver.find_element(By.TAG_NAME, 'h1')

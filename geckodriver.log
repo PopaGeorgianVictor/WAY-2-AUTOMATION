@@ -2946,3 +2946,16 @@ DevTools listening on ws://127.0.0.1:2727/devtools/browser/0a3f423d-0cc3-4a39-81
 JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
 1671114880336	Marionette	INFO	Stopped listening on port 2736
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671115220798	geckodriver	INFO	Listening on 127.0.0.1:2789
+1671115223835	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2790" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofile7LwpUH"
+1671115224267	Marionette	INFO	Marionette enabled
+1671115224272	Marionette	INFO	Listening on port 2799
+Read port: 2799
+WebDriver BiDi listening on ws://127.0.0.1:2790
+1671115224369	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofile7LwpUH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:2790/devtools/browser/9ca181ef-70fa-4d43-bc8f-f10e99c7ecec
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1671115236689	Marionette	INFO	Stopped listening on port 2799
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
