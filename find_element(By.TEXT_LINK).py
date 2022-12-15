@@ -13,13 +13,12 @@ driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
 driver.maximize_window()
 
 # URL of website
-url = "https://popageorgianvictor.github.io/MyTestSite/"
+url = "https://popageorgianvictor.github.io/PUBLISHED-WEBPAGES/all_in_one"
 
 # Opening the website
 driver.get(url)
 
-# The continue.html link can be located like this:
-continue_link = driver.find_element(By.LINK_TEXT, 'Continue')
-continue_link_partial = driver.find_element(By.PARTIAL_LINK_TEXT, 'Conti')
-print(continue_link)
-print(continue_link_partial)
+# .html link can be located like this:
+driver.find_element(By.LINK_TEXT, 'Radio Button').click()
+driver.find_element(By.PARTIAL_LINK_TEXT, 'Check').click()
+print('I clicked on button.Two pages should open !!!')
