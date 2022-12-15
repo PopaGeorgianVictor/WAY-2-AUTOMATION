@@ -2769,3 +2769,41 @@ WebDriver BiDi listening on ws://127.0.0.1:1604
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileeRsKXp\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:1604/devtools/browser/ccfcffdc-5d90-47c2-afd8-cd609f3dda16
 1671111299631	Marionette	INFO	Stopped listening on port 1613
+1671111430240	geckodriver	INFO	Listening on 127.0.0.1:1654
+1671111433264	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1655" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofile29CZHu"
+1671111433662	Marionette	INFO	Marionette enabled
+1671111433666	Marionette	INFO	Listening on port 1664
+Read port: 1664
+WebDriver BiDi listening on ws://127.0.0.1:1655
+1671111433916	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofile29CZHu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1655/devtools/browser/2ff61da2-f4ad-419c-b130-42aab4bc7127
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1671111450334	Marionette	INFO	Stopped listening on port 1664
+[Parent 2412, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1671111463533	geckodriver	INFO	Listening on 127.0.0.1:1696
+1671111466580	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1697" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileRUqFYO"
+1671111466984	Marionette	INFO	Marionette enabled
+1671111466990	Marionette	INFO	Listening on port 1706
+Read port: 1706
+WebDriver BiDi listening on ws://127.0.0.1:1697
+1671111467085	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileRUqFYO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1697/devtools/browser/e82fb8b0-8fef-430d-b94e-1d9d0038bd07
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1671111574369	Marionette	INFO	Stopped listening on port 1706
+[Parent 14116, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1671111580342	geckodriver	INFO	Listening on 127.0.0.1:1749
+1671111583369	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1750" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofilevSzVIH"
+1671111583784	Marionette	INFO	Marionette enabled
+1671111583788	Marionette	INFO	Listening on port 1759
+Read port: 1759
+WebDriver BiDi listening on ws://127.0.0.1:1750
+1671111583885	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofilevSzVIH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1750/devtools/browser/7f3636ba-86b3-4cf4-a253-9b492b1d1d8d
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1671111652157	Marionette	INFO	Stopped listening on port 1759
