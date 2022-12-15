@@ -12,7 +12,7 @@ from selenium.webdriver.support import expected_conditions as EC
 driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
 
 # URL of website
-url = "https://popageorgianvictor.github.io/MyTestSite/"
+url = "https://popageorgianvictor.github.io/PUBLISHED-WEBPAGES/image_load_slow"
 
 # Opening the website
 driver.get(url)
