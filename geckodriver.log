@@ -2959,3 +2959,15 @@ JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FA
 1671115236689	Marionette	INFO	Stopped listening on port 2799
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1671115252109	geckodriver	INFO	Listening on 127.0.0.1:2831
+1671115255142	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2832" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileFWI9Iw"
+1671115255585	Marionette	INFO	Marionette enabled
+1671115255591	Marionette	INFO	Listening on port 2841
+Read port: 2841
+WebDriver BiDi listening on ws://127.0.0.1:2832
+1671115255686	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileFWI9Iw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:2832/devtools/browser/274afb2d-7a29-4b56-ab36-8d37ba38c136
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1671115396482	Marionette	INFO	Stopped listening on port 2841
