@@ -13,13 +13,11 @@ driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
 driver.maximize_window()
 
 # URL of website
-url = "https://popageorgianvictor.github.io/MyTestSite/"
+url = "https://popageorgianvictor.github.io/PUBLISHED-WEBPAGES/register"
 
 # Opening the website
 driver.get(url)
 
-# The username & password elements can be located like this:
-username = driver.find_element(By.NAME, 'username')
-password = driver.find_element(By.NAME, 'password')
-print(username)
-print(password)
+# elements can be located like this:
+driver.find_element(By.NAME, 'fname').send_keys('first name')
+driver.find_element(By.NAME, 'lname').send_keys('last name')
