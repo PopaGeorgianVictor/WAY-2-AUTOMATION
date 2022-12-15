@@ -17,5 +17,8 @@ url = "https://popageorgianvictor.github.io/PUBLISHED-WEBPAGES/all_in_one"
 # Opening the website
 driver.get(url)
 
-# element can be located like this:
-content = driver.find_element(By.CLASS_NAME, 'button')
+# is more than one element with class name 'button'
+# if we do not specify the index, by default it will be 0 (the first element found)
+driver.find_elements(By.CLASS_NAME, 'button')[1].click()
+print("I clicked on button with index 1")
+

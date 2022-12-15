@@ -12,11 +12,13 @@ driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
 driver.maximize_window()
 
 # URL of website
-url = "https://popageorgianvictor.github.io/MyTestSite/"
+url = "https://popageorgianvictor.github.io/PUBLISHED-WEBPAGES/all_in_one"
 
 # Opening the website
 driver.get(url)
 
-# The “p” element can be located like this:
-content = driver.find_element(By.CSS_SELECTOR, 'p.content')
-print(content)
+# is more than one element with CSS 'button'
+# if we do not specify the index, by default it will be 0 (the first element found)
+driver.find_elements(By.CSS_SELECTOR, 'a.button')[3].click()
+print("I clicked on button with index 3")
+
