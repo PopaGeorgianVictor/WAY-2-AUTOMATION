@@ -24,4 +24,6 @@ try:
     driver.find_element(By.CSS_SELECTOR, '#bmw').click()
     series_6 = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, 'input[value="6-series"]')))
 finally:
-    driver.quit()
+    driver.quit(
+
+#  ExpectedCondition will return true (Boolean) in case of success or not null if it fails to locate an element
