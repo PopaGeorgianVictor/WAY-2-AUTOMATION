@@ -1,4 +1,4 @@
-import time
+
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
 from webdriver_manager.firefox import GeckoDriverManager
@@ -12,14 +12,11 @@ driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
 driver.maximize_window()
 
 # URL of website
-url = "https://popageorgianvictor.github.io/MyTestSite/"
+url = "https://popageorgianvictor.github.io/PUBLISHED-WEBPAGES/radio_btn"
 
 # Opening the websitetest
 driver.get(url)
 
-# scroll down in page
-driver.execute_script("arguments[0].scrollIntoView();", driver.find_element(By.ID, "radios"))
-time.sleep(2)
 
 # verify default is selected
 expected_default_value = 'rock fm'
