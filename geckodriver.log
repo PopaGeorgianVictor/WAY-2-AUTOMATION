@@ -2895,3 +2895,29 @@ JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FA
 1671112359270	Marionette	INFO	Stopped listening on port 2154
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 !!! error running onStopped callback: TypeError: callback is not a function
+1671112531813	geckodriver	INFO	Listening on 127.0.0.1:2195
+1671112534855	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2196" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofilefZEt7Y"
+1671112535263	Marionette	INFO	Marionette enabled
+1671112535267	Marionette	INFO	Listening on port 2205
+Read port: 2205
+WebDriver BiDi listening on ws://127.0.0.1:2196
+1671112535370	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofilefZEt7Y\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:2196/devtools/browser/5c809159-652c-4bb2-b70c-50e32f496f19
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://www.javatpoint.com/python-tutorial, line 1927: TypeError: redirectButton is null
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1671112769153	Marionette	INFO	Stopped listening on port 2205
+1671114598051	geckodriver	INFO	Listening on 127.0.0.1:2626
+1671114601034	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2627" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileVJCWT1"
+1671114602386	Marionette	INFO	Marionette enabled
+1671114602400	Marionette	INFO	Listening on port 2636
+Read port: 2636
+WebDriver BiDi listening on ws://127.0.0.1:2627
+1671114603046	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileVJCWT1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:2627/devtools/browser/43339d12-5380-4dc3-a880-d951c6a2cc4f
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1671114624789	Marionette	INFO	Stopped listening on port 2636
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 10448, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

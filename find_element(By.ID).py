@@ -13,11 +13,10 @@ driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
 driver.maximize_window()
 
 # URL of website
-url = "https://popageorgianvictor.github.io/MyTestSite/"
+url = "https://popageorgianvictor.github.io/PUBLISHED-WEBPAGES/register"
 
 # Opening the website
 driver.get(url)
 
-# The form element can be located like this
-login_form = driver.find_element(By.ID, 'loginForm')
-print(login_form)
+# The 'form' element can be located like this
+driver.find_element(By.ID, 'regForm')
