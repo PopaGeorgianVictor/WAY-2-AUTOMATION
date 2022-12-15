@@ -3225,3 +3225,88 @@ DevTools listening on ws://127.0.0.1:3969/devtools/browser/63909a87-454c-4f25-90
 1671117717759	Marionette	INFO	Stopped listening on port 3978
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 [Parent 2328, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1671118003513	geckodriver	INFO	Listening on 127.0.0.1:4022
+1671118006546	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "4023" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileikRFSC"
+1671118006961	Marionette	INFO	Marionette enabled
+1671118006966	Marionette	INFO	Listening on port 4032
+Read port: 4032
+WebDriver BiDi listening on ws://127.0.0.1:4023
+1671118007061	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileikRFSC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:4023/devtools/browser/8122aaa1-0b0e-4331-931c-3d791cdbc138
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://popageorgianvictor.github.io."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqCP4/yg/l/ro_RO/LHUxA4o6J25.js?_nc_x=Ij3Wp8lg5Kz, line 21: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1671118016614	Marionette	INFO	Stopped listening on port 4032
+1671118025930	geckodriver	INFO	Listening on 127.0.0.1:4078
+1671118028947	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "4079" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofile56TOOd"
+1671118029893	Marionette	INFO	Marionette enabled
+1671118029898	Marionette	INFO	Listening on port 4088
+WebDriver BiDi listening on ws://127.0.0.1:4079
+Read port: 4088
+1671118030184	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofile56TOOd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:4079/devtools/browser/8e3f2354-82b9-4f78-9bbc-a89c73ed92a3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://popageorgianvictor.github.io."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqCP4/yg/l/ro_RO/LHUxA4o6J25.js?_nc_x=Ij3Wp8lg5Kz, line 21: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1671118036989	Marionette	INFO	Stopped listening on port 4088
+1671118107982	geckodriver	INFO	Listening on 127.0.0.1:4137
+1671118111033	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "4138" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofilew95CN8"
+1671118111707	Marionette	INFO	Marionette enabled
+1671118111711	Marionette	INFO	Listening on port 4148
+Read port: 4148
+WebDriver BiDi listening on ws://127.0.0.1:4138
+1671118111811	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofilew95CN8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:4138/devtools/browser/bc8bbb46-caf3-4210-be94-7470d1bfc1b8
+1671118120044	Marionette	INFO	Stopped listening on port 4148
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671118442164	geckodriver	INFO	Listening on 127.0.0.1:4191
+1671118445193	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "4192" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofilejzs1KH"
+1671118445596	Marionette	INFO	Marionette enabled
+1671118445601	Marionette	INFO	Listening on port 4201
+Read port: 4201
+WebDriver BiDi listening on ws://127.0.0.1:4192
+1671118445704	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofilejzs1KH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:4192/devtools/browser/a67d0215-da0a-43bf-b7bc-7811df2d8bc5
+1671118451479	Marionette	INFO	Stopped listening on port 4201
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671118472224	geckodriver	INFO	Listening on 127.0.0.1:4237
+1671118475247	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "4238" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofilehM48xe"
+1671118475653	Marionette	INFO	Marionette enabled
+1671118475658	Marionette	INFO	Listening on port 4247
+Read port: 4247
+WebDriver BiDi listening on ws://127.0.0.1:4238
+1671118475756	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofilehM48xe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:4238/devtools/browser/641b4fe2-836e-48a7-83fb-87bf9c65b26d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://popageorgianvictor.github.io."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqCP4/yg/l/ro_RO/LHUxA4o6J25.js?_nc_x=Ij3Wp8lg5Kz, line 21: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1671118493864	Marionette	INFO	Stopped listening on port 4247
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671118516376	geckodriver	INFO	Listening on 127.0.0.1:4292
+1671118519416	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "4293" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileTscivq"
+1671118519947	Marionette	INFO	Marionette enabled
+1671118519952	Marionette	INFO	Listening on port 4302
+Read port: 4302
+WebDriver BiDi listening on ws://127.0.0.1:4293
+1671118520046	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileTscivq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:4293/devtools/browser/7a066e2a-f0e8-41c2-bb78-af74de484335
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://popageorgianvictor.github.io."
+1671118525577	Marionette	INFO	Stopped listening on port 4302
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 693: TypeError: this.tablesData[table] is undefined
+1671118553574	geckodriver	INFO	Listening on 127.0.0.1:4351
+1671118556626	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "4352" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileR0xLmT"
+1671118557024	Marionette	INFO	Marionette enabled
+1671118557029	Marionette	INFO	Listening on port 4361
+Read port: 4361
+WebDriver BiDi listening on ws://127.0.0.1:4352
+1671118557273	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileR0xLmT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:4352/devtools/browser/34a47a73-0a5d-4b71-912d-6fc1ee32cc04
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://popageorgianvictor.github.io."
+1671118563897	Marionette	INFO	Stopped listening on port 4361
