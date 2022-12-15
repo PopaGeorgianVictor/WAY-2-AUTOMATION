@@ -1,4 +1,3 @@
-# importing webdriver from selenium
 
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
@@ -11,7 +10,7 @@ driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
 
 
 # URL of website
-url = "https://popageorgianvictor.github.io/MyTestSite/"
+url = "https://popageorgianvictor.github.io/PUBLISHED-WEBPAGES/image_load_slow"
 
 # Opening the website
 driver.get(url)
