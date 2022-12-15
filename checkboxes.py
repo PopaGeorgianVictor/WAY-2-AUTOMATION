@@ -1,9 +1,8 @@
-import time
+
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.common.by import By
-
 
 
 driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
@@ -12,14 +11,11 @@ driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
 driver.maximize_window()
 
 # URL of website
-url = "https://popageorgianvictor.github.io/MyTestSite/"
+url = "https://popageorgianvictor.github.io/PUBLISHED-WEBPAGES/checkbox"
 
 # Opening the website
 driver.get(url)
 
-# scroll down in page
-driver.execute_script("arguments[0].scrollIntoView();", driver.find_element(By.ID, "checkboxes"))
-time.sleep(2)
 
 # verify number of checkboxes and they are selectable
 expected_number_of_options = 4
