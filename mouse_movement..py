@@ -25,7 +25,7 @@ action = ActionChains(driver)
 action.move_to_element(menu).perform()
 print('Mouse over success')
 
-# mouse over and click
+# mouse hover and click
 print('Click on Portofolio')
 driver.find_element(By.XPATH, "//a[contains(text(),'Portofolio')]").click()
 
