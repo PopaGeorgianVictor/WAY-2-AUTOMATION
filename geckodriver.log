@@ -3832,3 +3832,15 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundEr
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 1671181319145	Marionette	INFO	Stopped listening on port 24061
+1671181593721	geckodriver	INFO	Listening on 127.0.0.1:24200
+1671181596779	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "24201" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofilebUeJn5"
+1671181597824	Marionette	INFO	Marionette enabled
+1671181597830	Marionette	INFO	Listening on port 24211
+Read port: 24211
+WebDriver BiDi listening on ws://127.0.0.1:24201
+1671181597942	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofilebUeJn5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:24201/devtools/browser/5e261ce0-26a5-4f75-9cc2-8d54a445e10e
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1671181607950	Marionette	INFO	Stopped listening on port 24211
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

@@ -1,9 +1,8 @@
-import time
+
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.support.select import Select
 from webdriver_manager.firefox import GeckoDriverManager
-from selenium.webdriver.common.by import By
 
 
 
@@ -19,9 +18,6 @@ url = "https://popageorgianvictor.github.io/PUBLISHED-WEBPAGES/dropdown"
 driver.get(url)
 
 
-# scroll down in page
-driver.execute_script("arguments[0].scrollIntoView();", driver.find_element(By.ID, "coding-language-select"))
-time.sleep(2)
 
 # using Select class
 my_dropdown = driver.find_element('id', 'coding-language-select')
@@ -36,5 +32,4 @@ for option in all_options:
 dropdown_btn = driver.find_element('id', 'dropdownMenuButton')
 dropdown_btn.click()
 my_option = driver.find_element('xpath', '//*[@id="dropdowns"]/div[2]/div/ul/li[1]/a')
-time.sleep(2)
 my_option.click()
