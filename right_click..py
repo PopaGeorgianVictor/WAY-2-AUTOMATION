@@ -14,7 +14,9 @@ driver.get("https://popageorgianvictor.github.io/PUBLISHED-WEBPAGES/right_click_
 
 
 # Right click action
+ActionChains(driver).context_click().perform()# context click = right click
 
-right_click_menu = driver.find_element(By.CSS_SELECTOR, "div#container a")
-ActionChains(driver).context_click(right_click_menu).perform()# context click = right click
+# Open a link from right click menu
+driver.find_element(By.CSS_SELECTOR, "#contextMenu a").click()
+print('I clicked on OVERVIEW')
 
