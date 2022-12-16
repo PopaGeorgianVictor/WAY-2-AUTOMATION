@@ -40,9 +40,10 @@ driver.forward()
 driver.back()
 
 
+# Refresh/reload a web page
+driver.refresh()
+
 # Closing browser
 driver.close() # close current tab
 driver.quit() # close all tabs
 
-# Refresh/reload a web page
-driver.refresh()

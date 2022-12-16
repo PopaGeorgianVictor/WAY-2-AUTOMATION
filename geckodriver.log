@@ -3964,3 +3964,15 @@ DevTools listening on ws://127.0.0.1:1562/devtools/browser/f04fcddd-2d0c-460e-ab
 JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
 1671197255538	Marionette	INFO	Stopped listening on port 1571
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671208603638	geckodriver	INFO	Listening on 127.0.0.1:6034
+1671208606647	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6035" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileyaPErv"
+1671208609306	Marionette	INFO	Marionette enabled
+1671208609320	Marionette	INFO	Listening on port 6048
+Read port: 6048
+WebDriver BiDi listening on ws://127.0.0.1:6035
+1671208609930	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileyaPErv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:6035/devtools/browser/ded11192-f100-441c-8d40-41373fc9b8e2
+1671209785519	Marionette	INFO	Stopped listening on port 6048
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
