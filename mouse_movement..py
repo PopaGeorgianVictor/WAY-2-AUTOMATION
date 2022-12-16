@@ -20,12 +20,12 @@ driver.get(url)
 
 
 # mouse over
-menu = driver.find_element(By.XPATH,"/html/body/div/nav/ul/li[1]/a")
+menu = driver.find_element(By.CSS_SELECTOR,"#container a")
 action = ActionChains(driver)
 action.move_to_element(menu).perform()
 print('Mouse over success')
 
 # mouse over and click
 print('Click on Portofolio')
-driver.find_element(By.XPATH, "/html/body/div/nav/ul/li[1]/ul/li[1]/a").click()
+driver.find_element(By.XPATH, "//a[contains(text(),'Portofolio')]").click()
 
