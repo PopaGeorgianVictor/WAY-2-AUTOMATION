@@ -10,7 +10,7 @@ driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
 driver.maximize_window()
 driver.implicitly_wait(2)
 
-driver.get("https://popageorgianvictor.github.io/PRESENTATION-SITE/")
+driver.get("https://popageorgianvictor.github.io/PUBLISHED-WEBPAGES/right_click_menu")
 
 
 # Right click action
