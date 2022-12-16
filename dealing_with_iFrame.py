@@ -35,7 +35,7 @@ my_alert.dismiss() # used to click on the 'Cancel' button of the alert
 # I change the focus into the frame
 my_frame = driver.find_element(By.ID, 'myFrame2')# here is WebElement
 driver.switch_to.frame(my_frame)
-driver.find_element(By.CSS_SELECTOR, ".ddsmoothmenu > ul > li > a").click()
+driver.find_element(By.CSS_SELECTOR, "div[id='link'] li:nth-child(1) a:nth-child(1)").click()
 
 
 # if we want to go back and click on the button outside the iFrame, we have to change the focus again
@@ -46,7 +46,7 @@ driver.switch_to.alert.dismiss()
 
 # We can specify the id directly
 driver.switch_to.frame('myFrame1')
-driver.find_element(By.CSS_SELECTOR, '.ddsmoothmenu > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1)').click()
+driver.find_element(By.CSS_SELECTOR, "div[id='link'] li:nth-child(1) a:nth-child(1)").click()
 print('I clicked in frame')
 
 
