@@ -19,7 +19,7 @@ url = "https://popageorgianvictor.github.io/PRESENTATION-SITE/"
 driver.get(url)
 
 
-# mouse over
+# mouse hover
 menu = driver.find_element(By.CSS_SELECTOR,"#container a")
 action = ActionChains(driver)
 action.move_to_element(menu).perform()
