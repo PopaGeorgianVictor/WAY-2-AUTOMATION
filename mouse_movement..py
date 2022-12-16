@@ -13,7 +13,7 @@ driver.maximize_window()
 driver.implicitly_wait(1)
 
 # URL of website
-url = "https://popageorgianvictor.github.io/Presentation-Site/"
+url = "https://popageorgianvictor.github.io/PRESENTATION-SITE/"
 
 # Opening the website
 driver.get(url)
