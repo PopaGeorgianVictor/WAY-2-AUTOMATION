@@ -12,7 +12,7 @@ driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
 
 # This is for maximize web window
 driver.maximize_window()
-wait = WebDriverWait(driver, 5)
+wait = WebDriverWait(driver, 5) # wait 5 sec before looking for element
 
 # URL of website
 url = "https://popageorgianvictor.github.io/PUBLISHED-WEBPAGES/present_vs_displayed"
