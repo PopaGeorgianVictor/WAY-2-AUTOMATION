@@ -37,17 +37,17 @@ my_frame = driver.find_element(By.ID, 'myFrame2')# here is WebElement
 driver.switch_to.frame(my_frame)
 driver.find_element(By.CSS_SELECTOR, ".ddsmoothmenu > ul > li > a").click()
 
-#
-# # if we want to go back and click on the button outside the iFrame, we have to change the focus again
-# driver.switch_to.default_content()
-# driver.find_element(By.ID, 'btnOutFrame').click()
-# print(driver.switch_to.alert.text)
-# driver.switch_to.alert.dismiss()
-#
-# # We can specify the id directly
-# driver.switch_to.frame('myFrame1')
-# driver.find_element(By.CSS_SELECTOR, '.ddsmoothmenu > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1)').click()
-# print('I clicked in frame')
+
+# if we want to go back and click on the button outside the iFrame, we have to change the focus again
+driver.switch_to.default_content()
+driver.find_element(By.ID, 'btnOutFrame').click()
+print(driver.switch_to.alert.text)
+driver.switch_to.alert.dismiss()
+
+# We can specify the id directly
+driver.switch_to.frame('myFrame1')
+driver.find_element(By.CSS_SELECTOR, '.ddsmoothmenu > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1)').click()
+print('I clicked in frame')
 
 
 # to find out how many frame's are on the page
