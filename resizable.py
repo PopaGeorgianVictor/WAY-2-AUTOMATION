@@ -15,4 +15,7 @@ driver.implicitly_wait(2)
 resizable = driver.find_element(By.XPATH, '//*[@id="resizable"]/div[3]')
 ActionChains(driver).drag_and_drop_by_offset(resizable,500,500).perform()
 
+# back to original
+ActionChains(driver).drag_and_drop_by_offset(resizable,-500,-500).perform()
+
 
