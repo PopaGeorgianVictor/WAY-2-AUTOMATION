@@ -12,10 +12,15 @@ driver.maximize_window()
 driver.implicitly_wait(2)
 
 
-# searck for ...
+# search for ...
 search_bar = driver.find_element(By.ID, 'myInput')
 search_bar.send_keys('lists')
 
-# click on  .. after seacrh
+elem = driver.find_element(By.XPATH,"//a[normalize-space()='LISTS']")
+actual = elem.text
+expected = "LISTS"
+assert actual == expected, f'Error: expected: {expected}, actual: {actual} '
 
-driver.find_element(By.XPATH,"//a[normalize-space()='LISTS']").click()
+
+# click on  .. after search
+elem.click()
