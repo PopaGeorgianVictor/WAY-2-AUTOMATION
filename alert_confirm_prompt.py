@@ -15,6 +15,8 @@ driver.find_element(By.CSS_SELECTOR, "#bootStrapAlertExample button").click()
 html_alert_text = driver.find_element(By.ID, "bootStrapAlert").text
 expected_text = "This is alert using just html."
 assert html_alert_text == expected_text, f"Error: expected: {expected_text}, actual: {html_alert_text}"
+driver.find_element(By.CSS_SELECTOR, '.btn-close').click()
+
 
 # js alert accept
 driver.find_element(By.CSS_SELECTOR, "#jsAlertExample button").click()
