@@ -1,3 +1,4 @@
+import time
 
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
@@ -35,5 +36,17 @@ for option in all_options:
 # using CSS
 dropdown_btn = driver.find_element('id', 'dropdownMenuButton')
 dropdown_btn.click()
-my_option = driver.find_element('xpath', '//*[@id="dropdowns"]/div[2]/div/ul/li[1]/a')
+my_option = driver.find_element('link text', 'PORTOFOLIO')
 my_option.click()
+
+driver.find_element(By.LINK_TEXT, 'OVERVIEW').click()
+time.sleep(3)
+driver.switch_to.window(driver.window_handles[1])
+print("Second window title = " + driver.title)
+
+try:
+    driver.find_element(By.CSS_SELECTOR,"span[title='PORTOFOLIO']")
+    print('Element exist')
+
+except NoSuchElementException:
+    print("Element does not exist")
