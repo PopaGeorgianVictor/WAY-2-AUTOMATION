@@ -18,15 +18,21 @@ url = "https://popageorgianvictor.github.io/PUBLISHED-WEBPAGES/radio_btn"
 driver.get(url)
 
 
-# verify default is selected
-expected_default_value = 'rock fm'
-locator_by_value = 'input[name="radio-stations"][value="{value}"]'
+# click all button
+driver.find_element(By.CSS_SELECTOR, "input[value='magic fm']").click()
+driver.find_element(By.CSS_SELECTOR, "input[value='radio galaxy']").click()
+driver.find_element(By.CSS_SELECTOR, "input[value='europa fm']").click()
+driver.find_element(By.CSS_SELECTOR, "input[value='rock fm']").click()
 
-default_element = driver.find_element(By.CSS_SELECTOR, locator_by_value.format(value=expected_default_value))
-assert default_element.is_selected(), f"The default value of {expected_default_value} is not selected."
-
-# verify number of radio button
-expected_values = ['magic fm','radio galaxy','europa fm','rock fm']
-all_radios = driver.find_elements(By.NAME, 'radio-stations')
-assert len(all_radios) == len(expected_values), "the number of radios does not match the expected." \
-                                                "Expected: {}, Actual: {}".format(len(expected_values),len(all_radios))
+# # verify default is selected
+# expected_default_value = 'rock fm'
+# locator_by_value = 'input[name="radio-stations"][value="{value}"]'
+#
+# default_element = driver.find_element(By.CSS_SELECTOR, locator_by_value.format(value=expected_default_value))
+# assert default_element.is_selected(), f"The default value of {expected_default_value} is not selected."
+#
+# # verify number of radio button
+# expected_values = ['magic fm','radio galaxy','europa fm','rock fm']
+# all_radios = driver.find_elements(By.NAME, 'radio-stations')
+# assert len(all_radios) == len(expected_values), "the number of radios does not match the expected." \
+#                                                 "Expected: {}, Actual: {}".format(len(expected_values),len(all_radios))
