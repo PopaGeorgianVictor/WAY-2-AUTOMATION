@@ -24,3 +24,10 @@ assert actual == expected, f'Error: expected: {expected}, actual: {actual} '
 
 # click on  .. after search
 elem.click()
+
+try:
+    self.driver.find_element(By.CSS_SELECTOR, "a[title='Python Tutorial']")
+    print('Element exist')
+
+except NoSuchElementException:
+    print("Element does not exist")
