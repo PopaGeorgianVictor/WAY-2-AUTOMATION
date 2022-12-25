@@ -1,5 +1,6 @@
 
 from selenium import webdriver
+from selenium.common import WebDriverException
 from selenium.webdriver.firefox.service import Service
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.common.by import By
@@ -19,10 +20,31 @@ driver.get(url)
 
 
 # click all button
-driver.find_element(By.CSS_SELECTOR, "input[value='magic fm']").click()
-driver.find_element(By.CSS_SELECTOR, "input[value='radio galaxy']").click()
-driver.find_element(By.CSS_SELECTOR, "input[value='europa fm']").click()
-driver.find_element(By.CSS_SELECTOR, "input[value='rock fm']").click()
+
+try:
+    driver.find_element(By.CSS_SELECTOR, "input[value='magic fm']").click()
+    print("Magic FM button is clickable")
+except WebDriverException:
+    print("Magic FM button is not clickable")
+
+try:
+    driver.find_element(By.CSS_SELECTOR, "input[value='radio galaxy']").click()
+    print("Radio Galaxy button is clickable")
+except WebDriverException:
+    print("Radio Galaxy button is not clickable")
+
+try:
+    driver.find_element(By.CSS_SELECTOR, "input[value='europa fm']").click()
+    print("Europa FM  button is clickable")
+except WebDriverException:
+    print("Europa FM  button is not clickable")
+
+try:
+    driver.find_element(By.CSS_SELECTOR, "input[value='rock fm']").click()
+    print("Rock FM  button is clickable")
+except WebDriverException:
+    print("Rock FM button is not clickable")
+
 
 # verify default is selected
 expected_default_value = 'rock fm'
