@@ -16,7 +16,7 @@ driver.implicitly_wait(2)
 search_bar = driver.find_element(By.ID, 'myInput')
 search_bar.send_keys('lists')
 
-elem = driver.find_element(By.XPATH,"//a[normalize-space()='LISTS']")
+elem = driver.find_element(By.LINK_TEXT,"LISTS")
 actual = elem.text
 expected = "LISTS"
 assert actual == expected, f'Error: expected: {expected}, actual: {actual} '
