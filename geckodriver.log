@@ -11856,3 +11856,26 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Pha
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1672043740532	geckodriver	INFO	Listening on 127.0.0.1:51032
+1672043743582	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51033" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofilekE1g2b"
+1672043743973	Marionette	INFO	Marionette enabled
+1672043743978	Marionette	INFO	Listening on port 51043
+Read port: 51043
+WebDriver BiDi listening on ws://127.0.0.1:51033
+1672043744073	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofilekE1g2b\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51033/devtools/browser/0c977389-0a4d-4880-9b23-dffbefec3ef3
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+1672044010879	Marionette	INFO	Stopped listening on port 51043
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "51090" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileH9yM1y"
+1672043765585	Marionette	INFO	Marionette enabled
+1672043765591	Marionette	INFO	Listening on port 51099
+Read port: 51099
+WebDriver BiDi listening on ws://127.0.0.1:51090
+1672043765760	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\popag\\AppData\\Local\\Temp\\rust_mozprofileH9yM1y\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51090/devtools/browser/b8d6b31d-a5ae-4fcc-8d9b-facd1300bcdf
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+1672044008207	Marionette	INFO	Stopped listening on port 51099
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

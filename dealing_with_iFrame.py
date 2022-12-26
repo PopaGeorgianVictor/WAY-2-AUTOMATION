@@ -1,5 +1,7 @@
+import time
 
 from selenium import webdriver
+from selenium.common import NoSuchElementException
 from selenium.webdriver.firefox.service import Service
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.common.by import By
@@ -48,7 +50,15 @@ driver.switch_to.alert.dismiss()
 driver.switch_to.frame('myFrame1')
 driver.find_element(By.CSS_SELECTOR, "div[id='link'] li:nth-child(1) a:nth-child(1)").click()
 print('I clicked in frame')
+time.sleep(3)
+print("Second window title = " + self.driver.title)
 
+try:
+    driver.find_element(By.CSS_SELECTOR, "div[id='link'] li:nth-child(1) a:nth-child(1)")
+    print('Element exist')
+
+except NoSuchElementException:
+    print("Element does not exist")
 
 # to find out how many frame's are on the page
 frames = driver.find_elements(By.TAG_NAME,"iFrame")
